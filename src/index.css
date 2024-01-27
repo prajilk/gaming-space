@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* TAILWINDCSS CONFIG. DO NOT REMOVE THIS. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: rgb(98, 36, 207);
+    background: radial-gradient(
+        circle,
+        rgba(98, 36, 207, 1) 0%,
+        rgba(29, 1, 107, 1) 100%
+    );
+}
+
+.hero-container {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)),
+        url(redfall.webp);
+    background-position: center;
+    background-size: cover;
+}
