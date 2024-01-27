@@ -26,7 +26,7 @@ const Hero = () => {
                     </span>
                     |<span className="text-sm font-semibold">English</span>
                 </div>
-                <button className="flex items-center gap-2 rounded-full ps-3 md:ps-4 pe-5 md:pe-6 py-2 md:py-3 bg-gradient-to-r from-violet-500 to-indigo-500 active:scale-95 duration-300">
+                <button className="flex items-center gap-2 rounded-full ps-3 md:ps-4 pe-5 md:pe-6 py-2 md:py-3 bg-gradient-to-r from-[#AD85FF] to-[#6631FF] active:scale-95 duration-300">
                     <FaRegCirclePlay size={20} />
                     <span className="font-semibold text-xs">Watch Now</span>
                 </button>
